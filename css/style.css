@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    line-height: 1.6;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+ul{
+    list-style-type: none;
+}
+
+/* Navigation */
+
+#logo{
+    font-size: 30px;
+    font-family: 'Comfortaa', cursive;
+    margin-top: 1%;
+}
+
+.navbar{
+    height: 70px;
+    background-color: white;
+    z-index: 2;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar ul{
+    display: flex;
+    margin-bottom: 0;
+}
+
+.navbar a{
+    font-weight: 400;
+    font-size: 20px;
+    padding: 0 20px;
+    margin: 0 5px;
+}
+
+.navbar a:hover{
+    text-decoration: underline;
+}
+
+.navbar .flex{
+    justify-content: space-between;
+    overflow: hidden;
+}

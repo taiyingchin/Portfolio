@@ -1,0 +1,21 @@
+/* Tools */
+
+.container{
+    max-width: 1500px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
