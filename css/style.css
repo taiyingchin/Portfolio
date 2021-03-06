@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Code+Pro&display=swap');
 
 *{
     box-sizing: border-box;
@@ -22,6 +23,24 @@ a{
 
 ul{
     list-style-type: none;
+}
+
+.scp{
+    font-family: 'Source Code Pro', monospace;
+}
+
+.scp80{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 80px;
+}
+
+.robo{
+    font-family: 'Roboto', sans-serif;
+}
+
+.robo35{
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
 }
 
 /* Navigation */
@@ -58,4 +77,15 @@ ul{
 .navbar .flex{
     justify-content: space-between;
     overflow: hidden;
+}
+
+/* Welcome Section */
+
+#welcome-section{
+    margin-top: 200px;
+}
+
+#svgfile{
+    height: 400px;
+    width: 600px;
 }
