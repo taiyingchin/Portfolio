@@ -1,3 +1,47 @@
+:root{
+    --red: #FF334B;
+    --blue: #01BCDE;
+    --green: #19A729;
+    --purple: #C66CFF;
+    --black: #1C1C1C;
+}
+
+#red{
+    color: var(--red);
+    font-weight: 500;
+}
+
+#blue{
+    color: var(--blue);
+}
+
+#green{
+    color: var(--green);
+}
+
+#purple{
+    color: var(--purple);
+}
+
+#black{
+    background-color: var(--black);
+    height: 540px;
+    position: relative;
+    bottom: 57px;
+}
+
+.white{
+    color: white;
+}
+
+.scp{
+    font-family: 'Source Code Pro', monospace;
+}
+
+.robo{
+    font-family: 'Roboto', sans-serif;
+}
+
 /* Tools */
 
 .container{
